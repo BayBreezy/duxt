@@ -1,0 +1,37 @@
+{
+  "name": "duxt",
+  "description": "Documentation template created with Nuxt 3 + TailwindCSS + Nuxt Content",
+  "version": "0.0.1",
+  "homepage": "https://duxt.behonbaker.com",
+  "author": {
+    "name": "Behon Baker",
+    "email": "behon.baker@yahoo.com",
+    "url": "https://behonbaker.com"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "clean": "rm -rf .nuxt dist node_modules package-lock.json yarn.lock && yarn",
+    "format:prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "0.6.7",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "20.4.2",
+    "@types/prettier": "^2.7.3",
+    "nuxt": "^3.6.2",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.4.1"
+  },
+  "dependencies": {
+    "@nuxt/content": "^2.7.0",
+    "@vueuse/nuxt": "^10.2.1",
+    "nuxt-headlessui": "^1.1.4",
+    "nuxt-icon": "^0.4.2",
+    "nuxt-lodash": "^2.5.0"
+  }
+}
